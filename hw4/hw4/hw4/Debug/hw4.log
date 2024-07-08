@@ -1,0 +1,57 @@
+﻿Build started 13.01.2024 17:32:33.
+     1>Project "C:\Users\ufuk ulaş tokat\OneDrive\Masaüstü\cs300\hw4\hw4\hw4\hw4.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D "WIN32" /D _DEBUG /D _CONSOLE /D "_UNICODE" /D "UNICODE" /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt uulas_tokat_ufukulas_hw4.cpp
+         uulas_tokat_ufukulas_hw4.cpp
+     1>c:\users\ufuk ulaş tokat\onedrive\masaüstü\cs300\hw4\hw4\hw4\uulas_tokat_ufukulas_hw4.cpp(78): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ufuk ulaş tokat\onedrive\masaüstü\cs300\hw4\hw4\hw4\uulas_tokat_ufukulas_hw4.cpp(80): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ufuk ulaş tokat\onedrive\masaüstü\cs300\hw4\hw4\hw4\uulas_tokat_ufukulas_hw4.cpp(111): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ufuk ulaş tokat\onedrive\masaüstü\cs300\hw4\hw4\hw4\uulas_tokat_ufukulas_hw4.cpp(401): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ufuk ulaş tokat\onedrive\masaüstü\cs300\hw4\hw4\hw4\uulas_tokat_ufukulas_hw4.cpp(850): warning C4244: 'initializing' : conversion from '__int64' to 'float', possible loss of data
+     1>c:\users\ufuk ulaş tokat\onedrive\masaüstü\cs300\hw4\hw4\hw4\uulas_tokat_ufukulas_hw4.cpp(851): warning C4244: 'initializing' : conversion from '__int64' to 'float', possible loss of data
+     1>c:\users\ufuk ulaş tokat\onedrive\masaüstü\cs300\hw4\hw4\hw4\uulas_tokat_ufukulas_hw4.cpp(852): warning C4244: 'initializing' : conversion from '__int64' to 'float', possible loss of data
+     1>c:\users\ufuk ulaş tokat\onedrive\masaüstü\cs300\hw4\hw4\hw4\uulas_tokat_ufukulas_hw4.cpp(853): warning C4244: 'initializing' : conversion from '__int64' to 'float', possible loss of data
+     1>c:\users\ufuk ulaş tokat\onedrive\masaüstü\cs300\hw4\hw4\hw4\uulas_tokat_ufukulas_hw4.cpp(854): warning C4244: 'initializing' : conversion from '__int64' to 'float', possible loss of data
+     1>c:\users\ufuk ulaş tokat\onedrive\masaüstü\cs300\hw4\hw4\hw4\uulas_tokat_ufukulas_hw4.cpp(855): warning C4244: 'initializing' : conversion from '__int64' to 'float', possible loss of data
+     1>c:\users\ufuk ulaş tokat\onedrive\masaüstü\cs300\hw4\hw4\hw4\uulas_tokat_ufukulas_hw4.cpp(856): warning C4244: 'initializing' : conversion from '__int64' to 'float', possible loss of data
+     1>c:\users\ufuk ulaş tokat\onedrive\masaüstü\cs300\hw4\hw4\hw4\hash.cpp(77): warning C4244: '+=' : conversion from 'double' to 'unsigned long', possible loss of data
+                 c:\users\ufuk ulaş tokat\onedrive\masaüstü\cs300\hw4\hw4\hw4\hash.cpp(68) : while compiling class template member function 'int HashTable<Key,Value>::findPos(const Key &) const'
+                 with
+                 [
+                     Key=std::string,
+                     Value=WordItem
+                 ]
+                 c:\users\ufuk ulaş tokat\onedrive\masaüstü\cs300\hw4\hw4\hw4\hash.cpp(92) : see reference to function template instantiation 'int HashTable<Key,Value>::findPos(const Key &) const' being compiled
+                 with
+                 [
+                     Key=std::string,
+                     Value=WordItem
+                 ]
+                 c:\users\ufuk ulaş tokat\onedrive\masaüstü\cs300\hw4\hw4\hw4\hash.cpp(40) : while compiling class template member function 'HashTable<Key,Value>::HashTable(const Value &,int)'
+                 with
+                 [
+                     Key=std::string,
+                     Value=WordItem
+                 ]
+                 c:\users\ufuk ulaş tokat\onedrive\masaüstü\cs300\hw4\hw4\hw4\uulas_tokat_ufukulas_hw4.cpp(388) : see reference to function template instantiation 'HashTable<Key,Value>::HashTable(const Value &,int)' being compiled
+                 with
+                 [
+                     Key=std::string,
+                     Value=WordItem
+                 ]
+                 c:\users\ufuk ulaş tokat\onedrive\masaüstü\cs300\hw4\hw4\hw4\uulas_tokat_ufukulas_hw4.cpp(45) : see reference to class template instantiation 'HashTable<Key,Value>' being compiled
+                 with
+                 [
+                     Key=std::string,
+                     Value=WordItem
+                 ]
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ufuk ulaş tokat\OneDrive\Masaüstü\cs300\hw4\hw4\Debug\hw4.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\ufuk ulaş tokat\OneDrive\Masaüstü\cs300\hw4\hw4\Debug\hw4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ufuk ulaş tokat\OneDrive\Masaüstü\cs300\hw4\hw4\Debug\hw4.lib" /MACHINE:X86 Debug\BST.obj
+         Debug\Hash.obj
+         Debug\uulas_tokat_ufukulas_hw4.obj
+         hw4.vcxproj -> C:\Users\ufuk ulaş tokat\OneDrive\Masaüstü\cs300\hw4\hw4\Debug\hw4.exe
+     1>Done Building Project "C:\Users\ufuk ulaş tokat\OneDrive\Masaüstü\cs300\hw4\hw4\hw4\hw4.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.33
